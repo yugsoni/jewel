@@ -1,0 +1,10 @@
+{"menu": [
+    {"url":"dashboard-analytics", "name":"Dashboard", "slug":"dashboard" , "badgeClass": "badge badge-warning badge-pill float-right mr-2", "icon":"feather icon-home"
+    },
+    {"url":"profile", "name":"Profile", "slug":"profiel" , "badgeClass": "badge badge-warning badge-pill float-right mr-2", "icon":"feather icon-user"
+    },
+    {"url":"edit_profile", "name":"Edit Profile", "slug":"profiel" , "badgeClass": "badge badge-warning badge-pill float-right mr-2", "icon":"feather icon-settings"
+    }
+
+]}
+
