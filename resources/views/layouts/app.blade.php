@@ -56,8 +56,8 @@
                     <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
 
                     <ul class="site-menu js-clone-nav d-none d-lg-block">
-                      <li><a href="categories.html">For Candidates</a></li>
-                      <li class="has-children">
+                      {{-- <li><a href="categories.html">For Candidates</a></li> --}}
+                      {{-- <li class="has-children">
                         <a href="category.html">For Employees</a>
                         <ul class="dropdown arrow-top">
                           <li><a href="category.html">Category</a></li>
@@ -74,8 +74,8 @@
                           </li>
 
                         </ul>
-                      </li>
-                      <li><a href="contact.html">Contact</a></li>
+                      </li> --}}
+                      {{-- <li><a href="contact.html">Contact</a></li> --}}
                       @guest
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
