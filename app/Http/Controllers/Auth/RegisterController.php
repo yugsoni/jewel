@@ -78,7 +78,7 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {   
-        dd($data);
+        // dd($data);
 
         $bs_array[0] = $data['bs1'];
         $bs_array[1] = $data['bs2'];
