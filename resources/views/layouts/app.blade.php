@@ -8,10 +8,10 @@
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Work+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-    <link rel="stylesheet" href="/public/css/website/bootstrap.min.css">
-    <link rel="stylesheet" href="/public/css/website/magnific-popup.css">
-    <link rel="stylesheet" href="/public/css/website/jquery-ui.css">
-    <link rel="stylesheet" href="/public/css/website/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/website/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/website/magnific-popup.css">
+    <link rel="stylesheet" href="/css/website/jquery-ui.css">
+    <link rel="stylesheet" href="/css/website/owl.carousel.min.css">
     <link rel="stylesheet" href="/css/website/owl.theme.default.min.css">
     <link rel="stylesheet" href="/css/website/bootstrap-datepicker.css">
     <link rel="stylesheet" href="/css/website/animate.css">
@@ -22,9 +22,9 @@
     
     <link rel="stylesheet" href="/fonts/flaticon/font/flaticon.css">
   
-    <link rel="stylesheet" href="/public/css/website/aos.css">
+    <link rel="stylesheet" href="/css/website/aos.css">
 
-    <link rel="stylesheet" href="/public/css/website/style.css">
+    <link rel="stylesheet" href="/css/website/style.css">
     
   </head>
   <body>
