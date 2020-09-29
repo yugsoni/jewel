@@ -78,6 +78,9 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {   
+        $ut = $data['ut'];
+        dd($ut);
+
         $bs_array[0] = $data['bs1'];
         $bs_array[1] = $data['bs2'];
         $bs_array[2] = $data['bs3'];
