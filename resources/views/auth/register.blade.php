@@ -55,6 +55,7 @@
 
                             <div class="col-md-6">
                                <select name="ut" id="ut" class="custom-select" required>
+                                    <option value="">Select A User Type</option>
                                     <option value="Buyer">Buyer</option>
                                     <option value="Seller">Seller</option>
                                     <option value="Buyer and Seller">Buyer and Seller</option>

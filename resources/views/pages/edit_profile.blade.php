@@ -74,12 +74,17 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="edit_ut" class="col-md-4 col-form-label text-md-right">{{ __('User Type') }}</label>
+                            <label for="ut" class="col-md-4 col-form-label text-md-right">{{ __('User Type') }}</label>
 
                             <div class="col-md-6">
-                                <input id="edit_ut" value="{{ Auth::user()->user_type }}"  type="text" class="form-control @error('edit_ut') is-invalid @enderror" name="edit_ut"  required autocomplete="edit_ut" autofocus>
+                               <select name="ut" id="ut" class="custom-select" required>
+                                    <option value="{{ Auth::user()->user_type }}"></option>
+                                    <option value="Buyer">Buyer</option>
+                                    <option value="Seller">Seller</option>
+                                    <option value="Buyer and Seller">Buyer and Seller</option>
+                                </select>
 
-                                @error('edit_ut')
+                                @error('ut')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
