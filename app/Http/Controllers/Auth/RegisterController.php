@@ -78,8 +78,6 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {   
-        $ut = $data['ut'];
-        dd($ut);
 
         $bs_array[0] = $data['bs1'];
         $bs_array[1] = $data['bs2'];
@@ -98,10 +96,10 @@ class RegisterController extends Controller
         // $text_implod = explode(",", $text);
         // dd($ut);
         return User::create([
-            'user_type' => $ut,
             'name' => $data['name'],
             'Business_name' => $data['bn'],
             'mobile_number' => $data['mn'],
+            'user_type' => $ut,
             'Address' => $data['adre'],
             'City' => $data['city'],
             'State' => $data['state'],
